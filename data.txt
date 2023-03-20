@@ -1,0 +1,144 @@
+// Raw Data
+const menuRaw = [
+	{
+		'id' : 1,
+		'name' : 'Buttermilk Pancakes',
+		'cost' : 5.99,
+		'desc' : `Adipisicing elit dolor sit amet consectetur adipisicing elit. Non tenetur delectus sit accusamus.`,
+		'img' : `assets/imgs/item-1.jpeg`,
+		'category' : 'Brunch'
+	},{
+		'id' : 2,
+		'name' : 'Diner Double',
+		'cost' : 25.99,
+		'desc' : `Sit amet consectetur adipisicing elit. Non tenetur delectus sit accusamus.`,
+		'img' : `assets/imgs/item-2.jpeg`,
+		'category' : 'Lunch'
+	},{
+		'id' : 3,
+		'name' : 'Nyama Choma',
+		'cost' : 36.99,
+		'desc' : `Dolor sit amet consectetur adipisicing elit. Non tenetur delectus sit accusamus.`,
+		'img' : `assets/imgs/item-3.jpeg`,
+		'category' : 'Shakes'
+	},{
+		'id' : 4,
+		'name' : 'Beef Sausages',
+		'cost' : 1.99,
+		'desc' : `Consectetur adipisicing elit. Non tenetur delectus sit accusamus.`,
+		'img' : `assets/imgs/item-4.jpeg`,
+		'category' : 'Breakfast'
+	},{
+		'id' : 5,
+		'name' : 'Brown Chapati',
+		'cost' : 9.99,
+		'desc' : `Dolor sit amet consectetur adipisicing elit. Non tenetur delectus sit accusamus.`,
+		'img' : `assets/imgs/item-5.jpeg`,
+		'category' : 'Lunch'
+	},{
+		'id' : 6,
+		'name' : 'Ugali Saucer',
+		'cost' : 7.99,
+		'desc' : `Vertit amet consectetur adipisicing elit. Non tenetur delectus sit accusamus.`,
+		'img' : `assets/imgs/item-6.jpeg`,
+		'category' : 'Shakes'
+	},{
+		'id' : 7,
+		'name' : 'Githeri',
+		'cost' : 4.99,
+		'desc' : `Ipsum dolor sit amet consectetur adipisicing elit. Non tenetur delectus sit accusamus.`,
+		'img' : `assets/imgs/item-7.jpeg`,
+		'category' : 'Dinner'
+	},{
+		'id' : 8,
+		'name' : 'Sweet Potatoes',
+		'cost' : 22.99,
+		'desc' : `Zor sit amet consectetur adipisicing elit. Non tenetur delectus sit accusamus.`,
+		'img' : `assets/imgs/item-8.jpeg`,
+		'category' : 'Breakfast'
+	},{
+		'id' : 9,
+		'name' : 'Chips Mayai',
+		'cost' : 98.99,
+		'desc' : `Mit amet consectetur adipisicing elit. Non tenetur delectus sit accusamus.`,
+		'img' : `assets/imgs/item-9.jpeg`,
+		'category' : 'Lunch'
+	},{
+		'id' : 10,
+		'name' : 'Matumbo',
+		'cost' : 11.99,
+		'desc' : `Optimum amet consectetur adipisicing elit. Non tenetur delectus sit accusamus.`,
+		'img' : `assets/imgs/item-10.jpeg`,
+		'category' : 'Shakes'
+	},{
+		'id' : 11,
+		'name' : 'Buttermilk Pancakes',
+		'cost' : 5.99,
+		'desc' : `Lorem ipsum dolor sit amet consectetur adipisicing elit. Non tenetur delectus sit accusamus.`,
+		'img' : `assets/imgs/item-1.jpeg`,
+		'category' : 'Dinner'
+	},{
+		'id' : 12,
+		'name' : 'Diner Double',
+		'cost' : 25.99,
+		'desc' : `Sit amet consectetur adipisicing elit. Non tenetur delectus sit accusamus.`,
+		'img' : `assets/imgs/item-2.jpeg`,
+		'category' : 'Breakfast'
+	},{
+		'id' : 13,
+		'name' : 'Nyama Choma',
+		'cost' : 36.99,
+		'desc' : `Accusamus golor sit amet consectetur adipisicing elit. Non tenetur delectus sit accusamus.`,
+		'img' : `assets/imgs/item-3.jpeg`,
+		'category' : 'Lunch'
+	},{
+		'id' : 14,
+		'name' : 'Beef Sausages',
+		'cost' : 1.99,
+		'desc' : `Consectetur adipisicing elit. Non tenetur delectus sit accusamus.`,
+		'img' : `assets/imgs/item-4.jpeg`,
+		'category' : 'Shakes'
+	},{
+		'id' : 15,
+		'name' : 'Brown Chapati',
+		'cost' : 9.99,
+		'desc' : `Dolor sit amet consectetur adipisicing elit. Non tenetur delectus sit accusamus.`,
+		'img' : `assets/imgs/item-5.jpeg`,
+		'category' : 'Dinner'
+	},{
+		'id' : 16,
+		'name' : 'Ugali Saucer',
+		'cost' : 7.99,
+		'desc' : `Vertit amet consectetur adipisicing elit. Non tenetur delectus sit accusamus.`,
+		'img' : `assets/imgs/item-6.jpeg`,
+		'category' : 'Breakfast'
+	},{
+		'id' : 17,
+		'name' : 'Kunde',
+		'cost' : 1.99,
+		'desc' : `Ipsum dolor sit amet consectetur adipisicing elit. Non tenetur delectus sit accusamus.`,
+		'img' : `assets/imgs/item-7.jpeg`,
+		'category' : 'Lunch'
+	},{
+		'id' : 18,
+		'name' : 'Mchele na Beef',
+		'cost' : 123.99,
+		'desc' : `Tenetur delectus sit amet consectetur adipisicing elit. Non tenetur delectus sit accusamus.`,
+		'img' : `assets/imgs/item-8.jpeg`,
+		'category' : 'Shakes'
+	},{
+		'id' : 19,
+		'name' : 'Chicken Curry',
+		'cost' : 67.99,
+		'desc' : `Dit amet consectetur adipisicing elit. Non tenetur delectus sit accusamus.`,
+		'img' : `assets/imgs/item-9.jpeg`,
+		'category' : 'Dinner'
+	},{
+		'id' : 20,
+		'name' : 'Muthokoi Special',
+		'cost' : 14.99,
+		'desc' : `Consectetur adipisicing elit. Non tenetur delectus sit accusamus.`,
+		'img' : `assets/imgs/item-10.jpeg`,
+		'category' : 'Breakfast'
+	}
+];
